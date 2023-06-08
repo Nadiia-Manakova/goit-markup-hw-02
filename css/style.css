@@ -104,7 +104,7 @@ address ul a:focus {
   padding-top: 188px;
 }
 
-button {
+section.hero button {
   display: block;
   background-color: var(--primary-brand);
   width: 169px;
@@ -116,7 +116,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+section.hero button:hover {
   background-color: var(--pressed-state);
 }
 
