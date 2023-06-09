@@ -197,11 +197,3 @@ li.gallery-card {
   border: 1px var(--accent) solid;
   margin-top: 48px;
 }
-div.gallery-card-text {
-  margin: auto 16px;
-}
-div.gallery-card-text p,
-section.about p {
-  color: var(--text);
-  margin: 0;
-}
