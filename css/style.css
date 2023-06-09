@@ -172,18 +172,22 @@ footer {
   margin: 96px 156px;
 }
 
-ul.filters button {
+.filters-btn {
   background-color: var(--light);
   border: 1px var(--accent) solid;
-
+  font-family: "Roboto", sans-serif;
   color: var(--primary-brand);
   text-align: center;
   letter-spacing: 0.04em;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
 }
 
-ul.filters button:hover,
-ul.filters button:active {
+.filters-btn:hover,
+.filters-btn:active,
+.filters-btn:focus {
   background-color: var(--pressed-state);
   border: none;
   color: var(--white-background);
