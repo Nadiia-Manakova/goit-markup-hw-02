@@ -66,16 +66,17 @@ a.menu:focus {
   text-underline-offset: 20px;
 }
 
-.mail,
-.phone {
+.address {
+  font-style: normal;
+}
+
+.contakt {
   color: var(--text);
   font-style: normal;
 }
 
-.mail:hover,
-.mail:focus,
-.phone:hover,
-.phone:focus {
+.contakt:hover,
+.contakt:focus {
   color: var(--pressed-state);
   font-style: normal;
 }
@@ -177,11 +178,12 @@ footer {
   color: var(--light);
   padding: 100px 156px;
 }
-footer a.logo {
+
+.footer-logo {
   color: var(--light);
 }
 
-footer p {
+.footer-text {
   width: 264px;
 }
 
