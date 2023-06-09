@@ -44,7 +44,6 @@ h2 {
   line-height: 1.11;
   color: var(--modal-overlay);
   text-align: center;
-  margin: 0;
 }
 
 h3 {
@@ -52,7 +51,7 @@ h3 {
   font-weight: 500;
   line-height: 1.2;
   color: var(--modal-overlay);
-  text-align: center;
+  margin: 32px auto 8px auto;
 }
 
 /* header*/
@@ -135,7 +134,7 @@ section.hero button:hover {
   padding: 120px 156px;
 }
 
-.card {
+li.card {
   width: 264px;
   height: 380px;
   background-color: var(--white-background);
@@ -158,4 +157,47 @@ footer a.logo {
 
 footer p {
   width: 264px;
+}
+
+/* portfolio */
+.portfolio {
+  margin: 96px 156px;
+}
+
+ul.filters button {
+  width: auto;
+  height: 48px;
+  padding: 12px 24px;
+  background-color: var(--light);
+  border: 1px var(--accent) solid;
+  border-radius: 4px;
+
+  color: var(--primary-brand);
+  text-align: center;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+
+ul.filters button:hover,
+ul.filters button:active {
+  background-color: var(--pressed-state);
+  border: none;
+  color: var(--white-background);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+li.gallery-card {
+  width: 360px;
+  height: 420px;
+  border: 1px var(--accent) solid;
+  margin-top: 48px;
+}
+div.gallery-card-text {
+  margin: auto 16px;
+}
+div.gallery-card-text p,
+section.about p {
+  color: var(--text);
+  margin: 0;
 }
