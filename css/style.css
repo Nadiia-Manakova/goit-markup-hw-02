@@ -22,27 +22,6 @@ body {
   line-height: 1.5;
 }
 
-a {
-  text-decoration: none;
-}
-
-.page-title {
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  color: var(--white-background);
-  text-align: center;
-  letter-spacing: 0.02em;
-}
-
-h2 {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  color: var(--modal-overlay);
-  text-align: center;
-}
-
 /* header*/
 header {
   margin: 24px 156px;
@@ -55,20 +34,31 @@ header {
   font-size: 18px;
   line-height: 1.17;
   color: var(--primary-brand);
+  text-decoration: none;
 }
 
 span {
   color: var(--modal-overlay);
 }
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
 
 a.menu {
   color: var(--dark);
   font-size: 16px;
+  font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  text-decoration: none;
 }
 a.menu:active,
-a.menu:hover {
+a.menu:hover,
+a.menu:focus {
   color: var(--pressed-state);
   font-weight: 500;
   text-decoration: underline;
@@ -76,13 +66,16 @@ a.menu:hover {
   text-underline-offset: 20px;
 }
 
-address ul a {
+.mail,
+.phone {
   color: var(--text);
   font-style: normal;
 }
 
-address ul a:hover,
-address ul a:focus {
+.mail:hover,
+.mail:focus,
+.phone:hover,
+.phone:focus {
   color: var(--pressed-state);
   font-style: normal;
 }
@@ -95,13 +88,21 @@ address ul a:focus {
   padding-top: 188px;
 }
 
-button.cta-button {
+.page-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  color: var(--white-background);
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.cta-button {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   letter-spacing: 0.04em;
   font-weight: 500;
   line-height: 1.5;
-
   background-color: var(--primary-brand);
   width: 169px;
   height: 56px;
@@ -112,8 +113,8 @@ button.cta-button {
   cursor: pointer;
 }
 
-button.cta-button:hover,
-button.cta-button:focus {
+.cta-button:hover,
+.cta-button:focus {
   background-color: var(--pressed-state);
 }
 
@@ -141,6 +142,17 @@ button.cta-button:focus {
 .services {
   margin: 100px 156px;
 }
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--modal-overlay);
+  text-align: center;
+  text-transform: capitalize;
+}
+
 /* section class="team" */
 .team {
   width: 100%;
