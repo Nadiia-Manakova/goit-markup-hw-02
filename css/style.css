@@ -14,7 +14,8 @@
 }
 
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-background);
   color: var(--text);
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -25,17 +26,17 @@ a {
   text-decoration: none;
 }
 
-ul {
+::-moz-list-number {
   list-style-type: none;
-  padding-left: 0;
 }
 
-h1 {
+.page-title {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   color: var(--white-background);
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 h2 {
@@ -44,14 +45,6 @@ h2 {
   line-height: 1.11;
   color: var(--modal-overlay);
   text-align: center;
-}
-
-h3 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  color: var(--modal-overlay);
-  margin: 32px auto 8px auto;
 }
 
 /* header*/
@@ -65,15 +58,18 @@ header {
   text-transform: uppercase;
   font-size: 18px;
   line-height: 1.17;
-  color: var(--modal-overlay);
+  color: var(--primary-brand);
 }
 
 span {
-  color: var(--primary-brand);
+  color: var(--modal-overlay);
 }
 
 a.menu {
   color: var(--dark);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 a.menu:active,
 a.menu:hover {
@@ -103,8 +99,11 @@ address ul a:focus {
   padding-top: 188px;
 }
 
-section.hero button {
-  display: block;
+button.cta-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: var(--primary-brand);
   width: 169px;
   height: 56px;
@@ -115,13 +114,29 @@ section.hero button {
   cursor: pointer;
 }
 
-section.hero button:hover {
+button.cta-button:hover,
+button.cta-button:focus {
   background-color: var(--pressed-state);
 }
 
 /* section class="about" */
-.about {
+.list {
   margin: 100px 156px;
+}
+.list-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--modal-overlay);
+  margin: 32px auto 8px auto;
+}
+
+.list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
 }
 /* section class="services" */
 .services {
