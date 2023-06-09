@@ -84,9 +84,6 @@ a.menu:focus {
 /* section class="hero" */
 .hero {
   background-color: var(--dark);
-  width: 100%;
-  height: 600px;
-  padding-top: 188px;
 }
 
 .page-title {
@@ -105,10 +102,7 @@ a.menu:focus {
   font-weight: 500;
   line-height: 1.5;
   background-color: var(--primary-brand);
-  width: 169px;
-  height: 56px;
   border: none;
-  border-radius: 4px;
   color: var(--white-background);
   margin: 48px auto;
   cursor: pointer;
@@ -156,35 +150,21 @@ a.menu:focus {
 
 /* section class="team" */
 .team {
-  width: 100%;
   background-color: var(--light);
-  padding: 120px 156px;
 }
 
 li.card {
-  width: 264px;
-  height: 380px;
   background-color: var(--white-background);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
 }
 
 /* footer */
 footer {
-  width: 100%;
-  height: 312px;
   background-color: var(--dark);
   color: var(--light);
-  padding: 100px 156px;
 }
 
 .footer-logo {
   color: var(--light);
-}
-
-.footer-text {
-  width: 264px;
 }
 
 /* portfolio */
@@ -193,12 +173,8 @@ footer {
 }
 
 ul.filters button {
-  width: auto;
-  height: 48px;
-  padding: 12px 24px;
   background-color: var(--light);
   border: 1px var(--accent) solid;
-  border-radius: 4px;
 
   color: var(--primary-brand);
   text-align: center;
@@ -211,13 +187,9 @@ ul.filters button:active {
   background-color: var(--pressed-state);
   border: none;
   color: var(--white-background);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 li.gallery-card {
-  width: 360px;
-  height: 420px;
   border: 1px var(--accent) solid;
   margin-top: 48px;
 }
