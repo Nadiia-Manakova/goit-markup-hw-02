@@ -60,10 +60,6 @@ a.menu:active,
 a.menu:hover,
 a.menu:focus {
   color: var(--pressed-state);
-  font-weight: 500;
-  text-decoration: underline;
-  text-decoration-thickness: 4px;
-  text-underline-offset: 20px;
 }
 
 .address {
